@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+
+    <title>Conteudo Aula 12 - HTML</title>
+
+    <style>
+        /*alinhando divs com o float*/
+
+        .div-float {
+            width: 100%;
+            overflow: auto;
+        }
+
+        .div-float div {
+            width: 33%;
+            float: left;
+        }
+
+        /*alinhando div com inline-block*/
+
+        .div-inline-block{
+            width: 100%;
+            overflow: auto;
+        }
+
+        .div-inline-block div{
+            display: inline-block;
+        }
+
+        /*alinhado divs com o flax*/
+
+        .div-flax {
+            display: flex;
+        }
+
+        .div-flax div {
+            width: 33%;
+        }
+
+        /*alinhado divs com grid*/
+
+        .div-grid {
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+        }
+
+
+
+    </style>
+
+  </head>
+
+  <body>
+    
+    <h1>Divs no HTML</h1>
+
+    <h3>Varios Elementos  div</h3>
+
+    <div style="background-color: coral;">
+        <h2>Isso é um h2</h2>
+        <p>Isso é um paragrafo</p>
+        <p>Isso é outro paragrafo</p>
+    </div>
+
+    <div style="background-color: cornflowerblue;">
+        <h2>Isso é um h2</h2>
+        <p>Isso é um paragrafo</p>
+        <p>Isso é outro paragrafo</p>
+    </div>
+
+    <div style="background-color: darkorchid;">
+        <h2>Isso é um h2</h2>
+        <p>Isso é um paragrafo</p>
+        <p>Isso é outro paragrafo</p>
+    </div>
+
+    <br>
+
+    <h2>Aliando divs lado a lado</h2>
+
+    <h3>Ultilizando o float</h3>
+
+    <div class="div-float">
+        <div style="background-color: coral; ">
+        <h2>Isso é um h2</h2>
+        <p>Isso é um paragrafo</p>
+        <p>Isso é outro paragrafo</p>
+    </div>
+
+    <div style="background-color: cornflowerblue;">
+        <h2>Isso é um h2</h2>
+        <p>Isso é um paragrafo</p>
+        <p>Isso é outro paragrafo</p>
+    </div>
+
+    <div style="background-color: darkorchid;">
+        <h2>Isso é um h2</h2>
+        <p>Isso é um paragrafo</p>
+        <p>Isso é outro paragrafo</p>
+    </div>
+</div>
+
+<br>
+
+    <h3>Ultilizando o inline-block</h3>
+
+    <div class="div-inline-block">
+      
+        <div style="background-color: coral;">
+        <h2>Isso é um h2</h2>
+        <p>Isso é um paragrafo</p>
+        <p>Isso é outro paragrafo</p>
+    </div>
+
+    <div style="background-color: cornflowerblue;">
+        <h2>Isso é um h2</h2>
+        <p>Isso é um paragrafo</p>
+        <p>Isso é outro paragrafo</p>
+    </div>
+
+    <div style="background-color: darkorchid;">
+        <h2>Isso é um h2</h2>
+        <p>Isso é um paragrafo</p>
+        <p>Isso é outro paragrafo</p>
+    </div>
+    </div>
+
+    <br>
+
+    <h3>Ultilizando o flax </h3>
+
+    <div class="div-flax">
+
+        <div style="background-color: coral; ">
+        <h2>Isso é um h2</h2>
+        <p>Isso é um paragrafo</p>
+        <p>Isso é outro paragrafo</p>
+    </div>
+
+    <div style="background-color: cornflowerblue;">
+        <h2>Isso é um h2</h2>
+        <p>Isso é um paragrafo</p>
+        <p>Isso é outro paragrafo</p>
+    </div>
+
+    <div style="background-color: darkorchid;">
+        <h2>Isso é um h2</h2>
+        <p>Isso é um paragrafo</p>
+        <p>Isso é outro paragrafo</p>
+    </div>
+    </div>
+<br>
+
+    <h3>Ultilizando grid</h3>
+
+    <div class="div-grid">
+
+         <div style="background-color: coral; ">
+        <h2>Isso é um h2</h2>
+        <p>Isso é um paragrafo</p>
+        <p>Isso é outro paragrafo</p>
+    </div>
+
+    <div style="background-color: cornflowerblue;">
+        <h2>Isso é um h2</h2>
+        <p>Isso é um paragrafo</p>
+        <p>Isso é outro paragrafo</p>
+    </div>
+
+    <div style="background-color: darkorchid;">
+        <h2>Isso é um h2</h2>
+        <p>Isso é um paragrafo</p>
+        <p>Isso é outro paragrafo</p>
+    </div>
+
+    </div>
+
+  </body>
+</html>
