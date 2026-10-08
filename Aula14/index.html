@@ -1,11 +1,66 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html long="pt-br"
 <head>
     <title>Conteudo aula 14 - html</title>
 </head>
-
 <body>
    
+    <h1>Java script no HTML</h1>
+
+    <button onclick="document.getElementById('ex1').innerHTML = Date();">Adicionar data e hora</button>
+    
+    <p id="ex1"></p>
+
+    <br>
+
+    <h3>Inserindo conteudo na pagina com javascript</h3>
+
+    <p id="ex2"></p>
+
+    <hr>
+
+    <h3>Alterando estilos de elementos no javascript</h3>
+    
+    <p  id="ex3">Somente a dor coletiva gera uniao</p>
+
+    <button onclick="mudarEstilo()">Alterar estilo</button>
+
+    <hr>
+
+    <h3></h3>
+
+
+
+
+
+
+    <script>
+        // Inserindo conteudo com javascript
+        document.getElementById("ex2").innerHTML = "Hello world"
+        // Alterando estilos com javascript
+        function mudarEstilo() {
+            document.getElementById("ex3").style.backgroundColor = "crimson";
+            document.getElementById("ex3").style.color = "ghostwithe";
+            document.getElementById("ex3").style.border = "4px solid black";
+            document.getElementById("ex3").style.padding = "10px"
+            document.getElementById("ex3").style.fontFamily = "sans-serif";
+        }
+
+        function light(sw) {
+            var pic;
+            if(sw== 0) {
+                pic = ""
+            }else {
+                pic =""
+            }
+            document.getElementById().src = pic;
+        }
+    </script>
+
+    
+
+
+
 
 
 
